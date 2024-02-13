@@ -1,0 +1,22 @@
+.container{
+    height:300px;
+    width: 600px;
+    background-color: rgba(127, 255, 212, 0.186);
+    border: 5px SOLID RED;
+    background-color: yellow;
+    margin: 5px;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+}
+.item{
+    height:50PX;
+    width: 100px;
+    background-color: rgb(127, 255, 212);
+    border:2px solid black;
+    margin:5px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+
+}

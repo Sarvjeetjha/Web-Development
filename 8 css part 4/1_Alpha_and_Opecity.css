@@ -1,0 +1,16 @@
+.alpha{
+    background-color: rgba(255, 0, 0, 0.5);
+    height: 400px;
+    width: 400px;
+    border:5px solid black;
+    margin: 20px;
+}
+
+.opecity{
+    background-color: rgba(0, 255, 0, 0.5);
+    height: 400px;
+    width: 400px;
+    border:5px solid black;
+    margin: 20px;
+    opacity: 0.5;
+}

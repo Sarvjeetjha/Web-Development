@@ -1,0 +1,11 @@
+div{
+    height: 400px;
+    width:500px;
+    background-color: beige;
+    background-image:url("bgimage.jfif");
+    /* background-size: contain; */
+    background-size:cover;
+    /* background-color: auto; */
+    color:white;
+    padding: 20px;
+}

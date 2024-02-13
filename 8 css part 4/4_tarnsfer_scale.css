@@ -1,0 +1,64 @@
+#one{
+    height: 50px;
+    width: 200px;
+    background-color: #E7625F;
+    margin-bottom: 20px;
+    text-align: center;
+    
+    padding-top: 30px;
+    border: 2px solid black;
+   
+}
+#one{
+    transform:scale(0.5);/*0.5 time swill element will change */
+
+}
+#two{
+    border: 2px solid black;
+    height: 50px;
+    width: 200px;
+    background-color: #C85250;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+   
+}
+#two{
+    transform:scale(0.7,2);
+}
+#three{
+    border: 2px solid black;
+    height: 50px;
+    width: 200px;
+    background-color: #F7BEC0;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+   
+}
+#three{
+    transform:scalex(0.33);
+}
+#four{
+    border: 2px solid black;
+    height: 50px;
+    width: 200px;
+    background-color: #E9EAE0;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+   
+}
+#four{
+    transform:scaley(0.5);
+}
+#five{
+    border: 2px solid black;
+    height: 50px;
+    width: 200px;
+    background-color: #391306;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+   
+}

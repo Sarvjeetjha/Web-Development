@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form practice </title>
+</head>
+<body>
+    <form action="/server">
+        <h1>Novell services Login</h1>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="enter your useranme" name="user">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="enter your password" name="pass">
+        </div>
+        <br>
+        <div>
+            <label for="city">City  Of<br> employment:</label>
+            <input type="text" id="city" placeholder="enter your city" name="city">
+        </div>
+        <br>
+        <div>
+            <label for="server">Web Server:</label>
+            <br>
+        <select name=server id="server">
+            <option >--Choose your Server--</option>
+            <option name=" server" value="Microsoft">Microsoft</option>
+            <option name=" server" value="Linux">Linux</option>
+            <option  name=" server" value="Os">Os</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <input type="radio"id="role" name="role" value="Admine" >
+        <label for="role"> Admin</label>
+        <br>
+        <input type="radio" id="role" name="role"  value="Engineer">
+        <label for="role"> ENgineer</label>
+        
+    </div>
+    <br><br><br>
+    <div>
+        <input type="checkbox" id="signin" name="Signin" value="Gmail">
+        <label for="signin">Gmail</label><br>
+        <input type="checkbox" id="signin" name="Signin" value="Google">
+        <label for="signin">Google</label><br>
+        <input type="checkbox" id="signin" name="Signin" value="Microsoft">
+        <label for="signin">Microsoft</label><br>
+        <input type="checkbox" id="signin" name="Signin" value="Git">
+        <label for="signin">Git</label>
+    </div>
+    <button>Submit</button>
+        
+    </form>
+    
+</body>
+</html>

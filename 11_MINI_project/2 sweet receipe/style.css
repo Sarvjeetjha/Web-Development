@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: none;
+  background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+#nav_list1,li {
+  list-style: none;
+ 
+}
+
+
+
+.nav_container {
+  width: 100vw;
+  /* background-color: rgba(133, 49, 211, 1); */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 40%,
+    rgba(7, 76, 165, 1) 60%,
+    rgba(6, 100, 181, 1) 67%,
+    rgba(5, 117, 192, 1) 72%,
+    rgba(4, 131, 201, 1) 76%,
+    rgba(3, 144, 210, 1) 80%,
+    rgba(3, 151, 215, 1) 82%,
+    rgba(2, 165, 224, 1) 86%,
+    rgba(2, 175, 231, 1) 89%,
+    rgba(2, 178, 233, 1) 90%,
+    rgba(1, 192, 242, 1) 94%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 1);
+}
+#logo {
+  /* height: 100%; */
+  font-size: 30px;
+  width: 15%;
+  color: #adcd24;
+  position: fixed;
+  text-align: center;
+  padding: 17px 0 27px 0;
+  font-weight: 700;
+  box-shadow: 0 0 10px white;
+  transition: all 0.2s linear;
+}
+#logo:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px white;
+}
+.nav_list2 {
+  height: 100%;
+  display: flex;
+  /* justify-content: space-around; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 300px;
+  gap: 50px;
+}
+.nav_list2 a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+  transition: all 0.3s linear;
+}
+.nav_list2 a:hover {
+  transform: scale(1.25);
+  font-weight: 700;
+  background-color: #e21f30;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+.contentbox{
+   
+    width: 50%;
+    margin:auto;
+    border: 2px solid black;
+    background-color: WHITE;
+    margin-top: 20px;
+}
+.item1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    border: 1px solid black;
+    box-sizing: border-box;
+   
+    border-radius: 10px;
+}
+.rightbox img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+}

@@ -1,0 +1,66 @@
+/*it's a univerasal selector properties applied in it will be applicable in whole document*/
+*{
+ font-family: courier new;}
+
+ /* element selector :- it will applicable to all that perticular element*/
+ h1{
+    color: #b92b27;
+ }
+ h3{
+    color: purple;
+ }
+ /* id selector:-select an element on the basis of an id attribute */
+ #login{
+    background-color:white;
+ }
+ #signup{
+    background-color: #b92b27;
+    color:white;
+ }
+ /* class attribute:- select an attribute on the basis of class attribute .it canbe used at multiple element */
+ .upvote{
+    background-color: green;
+    color: black;
+ }
+ 
+ /* Descendent selector */
+
+ .post a{
+   color: purple;
+   background-color: yellow;
+ }
+ nav ul li a{
+   color: hotpink;
+ }
+ /* sibling combintor */
+ /* at same level and emmidiate just after  */
+ p+h3{
+   text-decoration: underline;
+ }
+ .upvote+button{
+   background-color: cornflowerblue;
+ }
+
+ /* child combinator */
+/* select all inputs which are just child of  div*/
+ div>input{
+   background-color: darksalmon;
+
+ }
+
+ /*attribute selector :- select element on the based on the presence or value of attributes*/
+ input[type="password"]{
+  color: green;
+ }
+
+ input[type="text"]{
+  color: red;
+ }
+ input[type]{
+  background-color: ghostwhite;
+ }
+
+
+ div[id="myid"]{
+  color: green;
+ }

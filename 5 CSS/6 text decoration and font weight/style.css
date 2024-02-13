@@ -1,0 +1,19 @@
+h1{
+    color: pink;
+    text-align: center;
+    font-weight:normal;
+    text-decoration:wavy red  underline;
+}
+h2{
+    text-decoration:dashed rebeccapurple overline;
+}
+h3{
+    text-decoration: double yellow line-through;
+}
+a{
+    text-decoration: none ;
+}
+p{
+    text-align: left;
+    font-weight: 700;/*100-700 step of 100*/
+}

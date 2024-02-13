@@ -1,0 +1,29 @@
+
+#container{
+    height:500px;
+    width:1000px;
+    margin:10px auto;
+    background-color: rgba(127, 234, 255, 0.624);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+   
+
+    /* Align Items */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    align-items: baseline;
+
+}
+div{
+    width:300px ;
+    height:50px;
+    
+    color:white;
+    
+    text-align: center;
+    font-size: 40px;
+
+}

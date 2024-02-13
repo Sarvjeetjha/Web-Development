@@ -1,0 +1,33 @@
+#container {
+  height: 500px;
+  width: 80%;
+  margin: 10px auto;
+  background-color: rgba(127, 234, 255, 0.624);
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: wrap; */
+  justify-content: flex-start;
+
+  align-content: flex-start;
+}
+#orange {
+  /* align self */
+  /* align-self: baseline;
+  flex-basis: 50px; */
+  flex-grow: 1;
+}
+#red {
+    /* align self */
+    align-self: baseline;
+    flex-basis: 10px;
+    flex-grow: 2;
+  }
+div {
+  width: 100px;
+  height: 50px;
+
+  color: white;
+
+  text-align: center;
+  /* font-size: 40px; */
+}

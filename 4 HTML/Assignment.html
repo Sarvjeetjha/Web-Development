@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Student Informtion</caption>
+        <head>
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+        </head>
+        <body>
+                
+            
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+                
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>MUMBAI</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>PUNE</td>
+                <td>4</td>
+            </tr>
+        </body>
+    </table>
+    <form action="/server">
+        <h1>Feedback form</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Write your name">
+        <br>
+        <br>
+        <label for="Email">Email:</label>
+        <input type="text" id="Email" name="Email" placeholder="Write your email ">
+        <br>
+        <br>
+        
+        <label for="message">Message:</label>
+        <br>
+        <textarea name="message" id="meassage" placeholder=" write your message here"></textarea>
+        <br>
+        <label for="rate">rate us our of 5:</label>
+        <br>
+        <input type="radio" id="1" value="1" name="rate">
+        <label for="1">1</label>
+        <br>
+        <input type="radio" id="2" value="2" name="rate">
+        <label for="2">2</label>
+        <br>
+        <input type="radio" id="3" value="3" name="rate">
+        <label for="3">3</label>
+        <br>
+        <input type="radio" id="4" value="4" name="rate">
+        <label for="4">4</label>
+        <br>
+        <input type="radio" id="5"  value="5" name="rate">
+        <label for="5">5</label>
+        <br>
+        <button>Send your message!</button>
+
+
+
+    </form>
+</body>
+</html>

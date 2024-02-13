@@ -1,0 +1,28 @@
+h1{
+    color: pink;
+    text-align: center;
+    font-weight:normal;
+    text-decoration:wavy red  underline;
+    letter-spacing:5px;
+}
+h2{
+    text-decoration:dashed rebeccapurple overline;
+}
+h3{
+    text-decoration: double yellow line-through;
+    font-family: impact;
+}
+a{
+    text-decoration: none ;
+}
+p{
+    text-align: left;
+    font-weight: 700;/*100-700 step of 100*/
+    line-height: 2.0;/* in normal it sets to normal spacing 
+     where as in 2.5 it increase 2.5 times*/
+     letter-spacing:2px;/* it increase the gap neteen each letter*/
+     font-size: 15px;
+     font-family: Arial;
+
+     
+}

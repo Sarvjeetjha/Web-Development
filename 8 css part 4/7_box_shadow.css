@@ -1,0 +1,11 @@
+div{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(6, 127, 58);
+    box-shadow: 5px 5px 10px black;
+    /* box-shadow: 5px -5px 10px black; */
+    /* box-shadow: -5px 5px 10px black; */
+    /* box-shadow: 10px 10px black; */
+
+    margin:0 auto;
+}
