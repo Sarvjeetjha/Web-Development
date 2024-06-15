@@ -48,9 +48,18 @@
 // hello()
 
 
-//printing Name
-function namePrint(){
-        console.log("Sarvjeet kumar")
+// //printing Name
+// function namePrint(){
+//         console.log("Sarvjeet kumar")
 
+// }
+// namePrint()
+
+
+//printing Name  1 to 5
+function print1to5(){
+        for(let i=1;i<=5;i++){
+                console.log(i," ");
+        }
 }
-namePrint()
+print1to5()
