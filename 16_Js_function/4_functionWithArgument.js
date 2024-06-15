@@ -6,10 +6,17 @@
 // Greet("Ram");
 
 
-function Greet(name,age){
-    console.log(` Hello ${name} your age is ${age}`);
+// function Greet(name,age){
+//     console.log(` Hello ${name} your age is ${age}`);
 
+// }
+// Greet("Ram",25);
+// Greet(14);
+// Greet("Ram");
+
+
+//function to add two number
+function sumOfTwoNumber(num1,num2){
+    console.log(num1+num2);
 }
-Greet("Ram",25);
-Greet(14);
-Greet("Ram");
+sumOfTwoNumber(2,3);
