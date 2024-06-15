@@ -56,10 +56,17 @@
 // namePrint()
 
 
-//printing Name  1 to 5
-function print1to5(){
-        for(let i=1;i<=5;i++){
-                console.log(i," ");
-        }
+// //printing Name  1 to 5
+// function print1to5(){
+//         for(let i=1;i<=5;i++){
+//                 console.log(i);
+//         }
+// }
+// print1to5()
+
+//pfunction to check that adult or not 
+function adultOrNot(a){
+        if(a>18)console.log("adult");
+        else console.log("NOt Adult");
 }
-print1to5()
+adultOrNot(19)
