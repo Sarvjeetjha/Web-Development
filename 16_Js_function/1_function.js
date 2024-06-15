@@ -20,15 +20,19 @@
 
 
 
-let greet=function(){
-    console.log("Hello everyone!!");
-}
-greet()
+// let greet=function(){
+//     console.log("Hello everyone!!");
+// }
+// greet()
 
-greet =function(){ //Updating the function definition to the variable
-    console.log("Namaste");
-}
-greet()
+
+//Updating the function definition to the variable
+
+
+// greet =function(){ 
+//     console.log("Namaste");
+// }
+// greet()
 
 // let variable=function(a,b){ //storing function referece in a variable   
 //     return a+b;
@@ -36,3 +40,17 @@ greet()
 // console.log(variable(2,50));
 
 
+
+// function hello(){
+//         console.log("hello");
+// }
+// hello()
+// hello()
+
+
+//printing Name
+function namePrint(){
+        console.log("Sarvjeet kumar")
+
+}
+namePrint()
