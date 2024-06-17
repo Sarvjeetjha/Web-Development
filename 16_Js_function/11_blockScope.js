@@ -27,8 +27,7 @@
 let age=25
 if(age>18){
     let str="adult"
-
-
+    console.log(str);
 }
 // console.log(str); //cannot access outside scope
 
