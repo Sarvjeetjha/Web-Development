@@ -13,3 +13,28 @@ function greet(){
     console.log("Hello!");
 }
 multipleGreet(greet,5)
+
+
+
+
+// returning function
+
+function oddEvenRequest(request){
+    if(request.toLowerCase()=="odd"){
+        return function(n){
+            console.log(n%2!=0)
+        }
+    }
+    else if(request.toLowerCase()=="even"){
+        return function(n){
+            console.log(n%2==0)
+        }
+    }
+    else{
+        console.log("invalid request");
+    }
+
+
+}
+let oddEvenCheck=oddEvenRequest("odd")
+oddEvenCheck(5);
