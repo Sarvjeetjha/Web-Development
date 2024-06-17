@@ -24,7 +24,7 @@
 
 let sum=50 //global scope
  function calSum(a,b){
-    let sum=a+b
+    let sum=a+b  //function scope
     console.log(sum); 
 
  }
