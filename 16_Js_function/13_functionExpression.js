@@ -1,10 +1,16 @@
 //function expression is used to store the reference of function definition in a variable
 
-// const greet=function(){
-//     console.log("hello")
-// }
-// greet( )
+let greet=function(){
+    console.log("hello")
+}
+greet( )
 
+
+greet=function(){
+    console.log("namaste");
+}
+
+greet()
 
 
 const sumNumber=function(a,b){
